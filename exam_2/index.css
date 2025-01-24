@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    overflow-x: hidden !important;
+}
+
+.container-fluid{
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.bg{
+    width: 100% !important;
+    height: 100vh !important;
+    background: linear-gradient(to bottom, rgba(92, 77, 66, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%), url(/exam_2/imgs/bg_exam2.jpg);
+    font-family: "Merriweather Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-weight: 700;
+    background-position: center;
+    object-fit: cover;
+}
+
+.nav-link , .navbar-brand{
+    color: rgba(255, 255, 255, 0.7) !important;
+}
+
+.Themes{
+    width: 800px;
+    height: 134px !important;
+    top: 230px;
+    /* left: 60px; */
+    position: relative;
+
+}
+
+.place{
+    font-size: 3.5rem !important;
+    color: rgba(var(--bs-white-rgb), var(--bs-text-opacity)) !important;
+    --bs-text-opacity: 1;
+}
+
+.arow{
+    position: absolute;
+    font-size: 40px !important;
+    top : 110%;
+    left: 350px;
+    font-size: 3.5rem !important;
+    color: #f4623a;
+
+}
